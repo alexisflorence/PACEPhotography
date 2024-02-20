@@ -2,6 +2,8 @@
 PACE Photography Website
 This website give information on a photography business. Including packages available, client gallery, contact information etc.
 
+CS5610 Web Development Northeastern University 
+
 
 ### Heroku Link
 https://personalwebsite-alexisflorence.herokuapp.com/
