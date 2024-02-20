@@ -1,0 +1,81 @@
+.my_container_div {
+  background-color: lightslategrey;
+  height: 3000px;
+}
+
+header{
+  background-color: lightblue;
+  position: fixed;
+  display: table;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 7px;
+ }
+
+div.nav_container{
+  font-family: 'Didot', serif;
+  font-size: 1em;
+ }
+
+img.logo{
+  margin-left: 30px;
+  float: left;
+  max-width: 7%;
+  max-height: 7%;
+  vertical-align: middle;
+}
+
+nav {
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+  vertical-align: middle;
+}
+
+header::after{
+ display: table;
+ clear: both;
+}
+
+nav li{
+ display: inline;
+}
+
+a.navlink{
+ text-decoration: none;
+ color: white;
+ background-color: lightpink;
+ padding: 14px 25px;
+ text-align: center;
+ vertical-align: middle;
+}
+
+h1.centerHeader {
+  color: white;
+  text-align: center;
+  font-family: 'Didot', serif;
+  font-size: 2em;
+  padding-top: 200px;
+}
+
+table, th, td{
+  font-size: 1.5em;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class ="my_container_div"] {
+    height: 2000px;
+  }
+  table {
+    font-size: 2em;
+  }
+
+}

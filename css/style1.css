@@ -1,0 +1,155 @@
+.my_container_div {
+  background-color: lightblue;
+  height: 5000px;
+}
+
+header{
+  background-color: lightslategrey;
+  position: fixed;
+  display: table;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 7px;
+ }
+
+div.nav_container{
+  font-family: 'Didot', serif;
+  font-size: 1em;
+ }
+
+img.logo{
+  margin-left: 30px;
+  float: left;
+  max-width: 7%;
+  max-height: 7%;
+  vertical-align: middle;
+}
+
+nav {
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+  vertical-align: middle;
+}
+
+header::after{
+ display: table;
+ clear: both;
+}
+
+nav li{
+ display: inline;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a.navlink{
+ text-decoration: none;
+ color: white;
+ background-color: lightpink;
+ padding: 14px 25px;
+ text-align: center;
+ vertical-align: middle;
+}
+
+h1.centerHeader {
+text-align: center;
+font-family: 'Didot', serif;
+font-size: 2em;
+padding-top: 200px;
+}
+
+p.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+div.package_photo_div{
+  justify-content:center;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+img.package_photos{
+  max-width: 30%;
+  max-height: 30%;
+  display: inline-block;
+ }
+
+
+.package_container_div {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+div.left_package_div {
+  background-color: white;
+}
+
+div.center_package_div {
+  background-color: white;
+}
+
+div.right_package_div {
+  background-color: white;
+}
+
+.my_div {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: 250px;
+  height: 80px;
+  margin: 10px;
+  line-height: 25px;
+  color: black;
+  text-align: center;
+}
+
+h4.insta{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.instagram{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 981px;
+  height: 180px;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class ="my_container_div"] {
+    height: 2000px;
+  }
+  [class = "navlink"]{
+    padding: 30px 50px;
+  }
+  [class = "logo"]{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+}

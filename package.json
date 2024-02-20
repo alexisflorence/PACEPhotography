@@ -1,0 +1,11 @@
+{
+  "name": "personalwebsite-alexisflorence",
+  "description": "PACE Photography Website",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Alexis Florence - CS5610",
+  "dependencies": {
+    "http-server": "*"
+  }
+}
